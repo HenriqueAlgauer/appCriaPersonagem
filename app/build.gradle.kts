@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-
+    implementation("com.github.henriquealgauer:criarPersonagemKT:1.0.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
