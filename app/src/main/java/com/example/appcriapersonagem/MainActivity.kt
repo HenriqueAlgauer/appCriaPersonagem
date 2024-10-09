@@ -1,5 +1,6 @@
 package com.example.appcriapersonagem
 
+
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -10,8 +11,12 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.example.appcriapersonagem.databinding.ActivityMainBinding
+import personagem.Personagem
+import raca.Anao
 
 class MainActivity : AppCompatActivity() {
+
+
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
